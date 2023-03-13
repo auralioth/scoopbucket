@@ -9,8 +9,8 @@
             "hash": "133a001e60ceab724803446f07466889f2ef543aed9d1c699931c1c5dcec192e"
         }
     },
+    "extract_dir": "PFiles\\Clash Verge",
     "bin": [
-        "Clash Verge.exe",
         "Clash Verge.exe"
     ],
     "checkver": "github",
