@@ -5,19 +5,16 @@
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zzzgydi/clash-verge/releases/download/v1.2.3/Clash.Verge_1.2.3_x64_zh-CN.msi",
-            "hash": "133a001e60ceab724803446f07466889f2ef543aed9d1c699931c1c5dcec192e"
+            "url": "https://github.com/zzzgydi/clash-verge/releases/download/v1.2.3/Clash.Verge_1.2.3_x64_portable.zip",
+            "hash": "d022b2e76ffc2fa5a066d42daea07d45dfea9b265eddfdd2391c29576ed6891c"
         }
     },
-    "extract_dir": "PFiles\\Clash Verge",
-    "bin": [
-        "Clash Verge.exe"
-    ],
+    "bin": "Clash Verge.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zzzgydi/clash-verge/releases/download/v1.2.3/Clash.Verge_$version_x64_zh-CN.msi"
+                "url": "https://github.com/zzzgydi/clash-verge/releases/download/v1.2.3/Clash.Verge_$version_x64_portable.zip"
             }
         }
     }
