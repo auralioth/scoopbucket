@@ -1,22 +1,22 @@
 {
-    "version": "2f992e9",
-    "description": "Fork of Clash, a rule-based tunnel.",
+    "version": "88116d9",
+    "description": "Fork of Clash, a rule-based tunnel(Alpha Version).",
     "homepage": "https://github.com/MetaCubeX/Clash.Meta",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/Prerelease-Alpha/Clash.Meta-windows-amd64-alpha-2f992e9.zip",
-            "hash": "e9464440ee408b85eba691651f97976424637948606706f5fa50b4be15c24e59"
+            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/Prerelease-Alpha/Clash.Meta-windows-amd64-alpha-88116d9.zip",
+            "hash": "0b1d0ace3ebbe3fb6c7f18159a2b3a70dfd1b9c164bd93570352578c4ae09c3b"
         }
     },
     "pre_install": [
-        "Get-ChildItem \"$dir\\clash.meta*.exe\" | Rename-Item -NewName 'clash-meta-alpha.exe'",
+        "Get-ChildItem \"$dir\\clash.meta*.exe\" | Rename-Item -NewName 'clash-meta.exe'",
         "Copy-Item \"$dir\\clash-meta-alpha.exe\" \"$scoopdir\\apps\\clash-verge\\current\\\""
     ],
     "bin": [
-        "clash-meta-alpha.exe",
+        "clash-meta.exe",
         [
-            "clash-meta-alpha.exe",
+            "clash-meta.exe",
             "clash-meta"
         ]
     ],
