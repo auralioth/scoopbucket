@@ -10,8 +10,7 @@
         }
     },
     "pre_install": [
-        "Get-ChildItem \"$dir\\clash.meta*.exe\" | Rename-Item -NewName 'clash-meta.exe'",
-        "Copy-Item \"$dir\\clash-meta-alpha.exe\" \"$scoopdir\\apps\\clash-verge\\current\\\""
+        "Get-ChildItem \"$dir\\clash.meta*.exe\" | Rename-Item -NewName 'clash-meta.exe'"
     ],
     "bin": [
         "clash-meta.exe",
