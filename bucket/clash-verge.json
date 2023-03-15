@@ -15,7 +15,6 @@
             "Clash Verge Portable"
         ]
     ],
-    "bin": "Clash Verge.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
