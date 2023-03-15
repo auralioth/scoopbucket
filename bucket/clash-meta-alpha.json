@@ -11,7 +11,7 @@
     },
     "pre_install": [
         "Get-ChildItem \"$dir\\clash.meta*.exe\" | Rename-Item -NewName 'clash-meta.exe'",
-        "Copy-Item 'clash-meta.exe' -Destination '$scoopdir\\apps\\clash-verge\\current' "
+        "Copy-Item \"$dir\\clash-meta.exe\" \"$scoopdir\\apps\\clash-verge\\current\""
     ],
     "bin": [
         "clash-meta.exe",
