@@ -9,6 +9,12 @@
             "hash": "d022b2e76ffc2fa5a066d42daea07d45dfea9b265eddfdd2391c29576ed6891c"
         }
     },
+    "shortcuts": [
+        [
+            "Clash Verge.exe",
+            "Clash Verge Portable"
+        ]
+    ],
     "bin": "Clash Verge.exe",
     "checkver": "github",
     "autoupdate": {

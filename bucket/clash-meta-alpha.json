@@ -9,7 +9,10 @@
             "hash": "4e488902426cca5b52b9ff29809d5f1d2306d55b2683630d6165ffde6fe1faa0"
         }
     },
-    "pre_install": "Get-ChildItem \"$dir\\clash.meta*.exe\" | Rename-Item -NewName 'clash-meta.exe'",
+    "pre_install": [
+        "Get-ChildItem \"$dir\\clash.meta*.exe\" | Rename-Item -NewName 'clash-meta.exe'",
+        "Copy-Item 'clash-meta.exe' -Destination '$scoopdir\\apps\\clash-verge\\current' "
+    ],
     "bin": [
         "clash-meta.exe",
         [
