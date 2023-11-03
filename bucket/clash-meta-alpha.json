@@ -1,12 +1,12 @@
 {
-    "version": "alpha-1489a5c",
+    "version": "alpha-2289904",
     "description": "Fork of Clash, a rule-based tunnel(Alpha Version).",
     "homepage": "https://github.com/MetaCubeX/Clash.Meta",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/Prerelease-Alpha/clash.meta-windows-amd64-alpha-1489a5c.zip",
-            "hash": "0468fe297e0e501e55941a8fd47ddac06264e00cdce03aec0204f0d6d6913056"
+            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/Prerelease-Alpha/clash.meta-windows-amd64-alpha-2289904.zip",
+            "hash": "8d57d1da88ab5a94ea41786230228c99136699f5a91828357d6f242f197b7d80"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\\clash.meta*.exe\" | Rename-Item -NewName 'clash-meta.exe'",
