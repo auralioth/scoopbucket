@@ -1,0 +1,33 @@
+{
+    "version": "1.17.0",
+    "description": "Fork of Clash, a rule-based tunnel.",
+    "homepage": "https://github.com/MetaCubeX/mihomo",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.17.0/mihomo-windows-amd64-v1.17.0.zip",
+            "hash": "8dbe8b5bf7d76e4863d9eafbe697ca73c8aba5fc19ca79ba49ea6774c1518915"
+        }
+    },
+    "pre_install": [
+        "Get-ChildItem \"$dir\\mihomo*.exe\" | Rename-Item -NewName 'clash-meta.exe'",
+        "sudo Stop-Process -Name clash-meta -Force",
+        "Stop-Process -Name \"Clash Verge\" -Force",
+        "Copy-Item \"$dir\\clash-meta.exe\" \"$scoopdir\\apps\\clash-verge\\current\""
+    ],
+    "bin": [
+        "clash-meta.exe",
+        [
+            "clash-meta.exe",
+            "clash-meta"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MetaCubeX/mihomo/releases/download/v$version/mihomo-windows-amd64-v$version.zip"
+            }
+        }
+    }
+}
