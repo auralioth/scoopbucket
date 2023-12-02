@@ -1,15 +1,15 @@
 {
     "version": "alpha-8c3557e",
     "description": "Fork of Clash, a rule-based tunnel(Alpha Version).",
-    "homepage": "https://github.com/MetaCubeX/Clash.Meta",
+    "homepage": "https://github.com/MetaCubeX/mohomo",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/Prerelease-Alpha/clash.meta-windows-amd64-alpha-8c3557e.zip",
+            "url": "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/clash.meta-windows-amd64-alpha-8c3557e.zip",
             "hash": "0274117f51ee7eae4cf1a74323869a96ee10613b9395fef68c27276d7285032f"
         }
     },
-    "pre_install": "Get-ChildItem \"$dir\\clash.meta*.exe\" | Rename-Item -NewName 'clash-meta.exe'",
+    "pre_install": "Get-ChildItem \"$dir\\mihomo*.exe\" | Rename-Item -NewName 'clash-meta.exe'",
     "bin": [
         "clash-meta.exe",
         [
@@ -19,14 +19,14 @@
     ],
     "env_add_path": ".",
     "checkver": {
-        "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/Prerelease-Alpha/version.txt",
+        "url": "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/version.txt",
         "regex": "alpha-([\\w]+)",
         "replace": "alpha-${1}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/Prerelease-Alpha/clash.meta-windows-amd64-$version.zip"
+                "url": "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-windows-amd64-$version.zip"
             }
         }
     }
