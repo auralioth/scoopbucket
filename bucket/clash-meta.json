@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.17.0/mihomo-windows-amd64-v1.17.0.zip",
-            "hash": "8dbe8b5bf7d76e4863d9eafbe697ca73c8aba5fc19ca79ba49ea6774c1518915"
+            "hash": "06e19c3d0d400f376615bb17c90524f62a27eea99fe098736b5a302b2f63f79e"
         }
     },
     "pre_install": [
