@@ -10,6 +10,15 @@
         }
     },
     "bin": "clash-tray.exe",
+    "shortcuts": [
+        [
+            "clash-tray.exe",
+            "clash-tray"
+        ]
+    ],
+    "notes": [
+        "clash-tray will uniquely default to the clash-meta (mihomo) configuration file at $env:USERPROFILE\\.config\\mihomo"
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/auryouth/clash-tray/releases",
         "jp": "$[0].tag_name"
