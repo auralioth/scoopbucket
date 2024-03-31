@@ -9,20 +9,14 @@
             "hash": "3c3df0aa43e94c39681d808fd6119860d7686c812b691ddd93b32b90d5942c57"
         }
     },
-    "pre_install": [
-        "Get-ChildItem \"$dir\\mihomo*.exe\" | Rename-Item -NewName 'clash-meta.exe'",
-        "sudo Stop-Process -Name clash-meta -Force",
-        "Stop-Process -Name \"Clash Verge\" -Force",
-        "Copy-Item \"$dir\\clash-meta.exe\" \"$scoopdir\\apps\\clash-verge\\current\""
-    ],
+    "pre_install": "Get-ChildItem \"$dir\\mihomo*.exe\" | Rename-Item -NewName 'mihomo.exe'",
     "bin": [
-        "clash-meta.exe",
+        "mihomo.exe",
         [
-            "clash-meta.exe",
-            "clash-meta"
+            "mihomo.exe",
+            "clash"
         ]
     ],
-    "env_add_path": ".",
     "checkver": {
         "url": "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/version.txt",
         "regex": "alpha-([\\w]+)",
