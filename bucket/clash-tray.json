@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/auryouth/clash-tray/releases/download/v1.2/clash-tray.exe",
-            "hash": "b025e1e45e1dbe26b2a349b2048d7d77f0fdc151aee00e602cc044978b75e67f"
+            "hash": "fe02885502acb152d43eb86e0bb7420de5dbf25899bb54a19f80e7a24027980c"
         }
     },
     "bin": "clash-tray.exe",
