@@ -1,12 +1,12 @@
 {
-    "version": "v1.3",
+    "version": "v1.4",
     "description": "一个管理clash-meta裸核的windows tray工具",
     "homepage": "https://github.com/auryouth/clash-tray",
     "license": "custom",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/auryouth/clash-tray/releases/download/v1.3/clash-tray.exe",
-            "hash": "df93e40701013d7b66010137f2cf0a260d80a30b3a66424ab08ff175331cf902"
+            "url": "https://github.com/auryouth/clash-tray/releases/download/v1.4/clash-tray.exe",
+            "hash": "ee3786723e7a7bc1286df8078ed6cf873c7da00356e34b15e26ebf9056120f10"
         }
     },
     "bin": "clash-tray.exe",
