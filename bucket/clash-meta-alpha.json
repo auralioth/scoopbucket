@@ -1,25 +1,25 @@
 {
-    "version": "alpha-56ed901",
+    "version": "alpha-677748a",
     "description": "Fork of Clash, a rule-based tunnel(Alpha Version).",
     "homepage": "https://github.com/MetaCubeX/mohomo",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-windows-amd64-alpha-56ed901.zip",
-            "hash": "3c3df0aa43e94c39681d808fd6119860d7686c812b691ddd93b32b90d5942c57"
+            "url": "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-windows-amd64-alpha-677748a.zip",
+            "hash": "3ff9b3bca87abab4a055576cae6190022f5cfae5eee9a60c388861f6a6d39c0b"
         }
     },
-    "pre_install": "Get-ChildItem \"$dir\\mihomo*.exe\" | Rename-Item -NewName 'mihomo.exe'",
+    "pre_install": "Get-ChildItem \"$dir\\mihomo*.exe\" | Rename-Item -NewName 'mihomo-alpha.exe'",
     "bin": [
-        "mihomo.exe",
+        "mihomo-alpha.exe",
         [
-            "mihomo.exe",
-            "clash"
+            "mihomo-alpha.exe",
+            "clash-alpha"
         ]
     ],
     "checkver": {
-        "url": "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/version.txt",
-        "regex": "alpha-([\\w]+)",
+        "url": "https://api.github.com/repos/MetaCubex/mihomo/releases",
+        "regex": "alpha-([\\w]+)\\.zip",
         "replace": "alpha-${1}"
     },
     "autoupdate": {

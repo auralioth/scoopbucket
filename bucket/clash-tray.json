@@ -1,5 +1,5 @@
 {
-    "version": "v1.4",
+    "version": "1.4",
     "description": "一个管理clash-meta裸核的windows tray工具",
     "homepage": "https://github.com/auryouth/clash-tray",
     "license": "custom",
@@ -17,14 +17,11 @@
         ]
     ],
     "notes": "clash-tray will uniquely default to the clash-meta (mihomo) configuration file at $env:USERPROFILE\\.config\\mihomo",
-    "checkver": {
-        "url": "https://api.github.com/repos/auryouth/clash-tray/releases",
-        "jp": "$[0].tag_name"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/auryouth/clash-tray/releases/download/$version/clash-tray.exe"
+                "url": "https://github.com/auryouth/clash-tray/releases/download/v$version/clash-tray.exe"
             }
         }
     }
