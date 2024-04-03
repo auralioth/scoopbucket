@@ -16,7 +16,7 @@
             "clash-tray"
         ]
     ],
-    "notes": "clash-tray will uniquely default to the clash-meta (mihomo) configuration file at $env:USERPROFILE\\.config\\mihomo",
+    "notes": "clash-tray will uniquely default to the clash-meta (mihomo) configuration file at $env:USERPROFILE\\.config\\clash",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
