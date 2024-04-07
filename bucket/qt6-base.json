@@ -1,0 +1,25 @@
+{
+    "homepage": "https://github.com/auryouth/qt6-build",
+    "description": "qt6-base build with UCRT64 in msys2",
+    "version": "6.7.0",
+    "license": "GPL3,LGPL3,FDL",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/auryouth/qt6-build/releases/download/v6.7.0/qt6-base-6.7.0.zip",
+            "hash": "ad0a206f7d2843138da499101caff587fdb2301da7d97ee33a1fe50323688f58",
+            "extract_dir": "qt6-base"
+        }
+    },
+    "env_add_path": "bin",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/auryouth/qt6-build/releases/download/v$version/qt6-base-$version.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
