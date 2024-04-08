@@ -6,7 +6,8 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/auryouth/qt6-build/releases/download/v6.7.0/qt6-base-6.7.0.zip",
-            "hash": "e47ad4a60899eef603b20b07641e103d86df5b3696b7fefdd1ca8f4017a8bfd8"
+            "hash": "1b653bce7bf80c6aa662995bee6a490cf460dd95abb4effca7037b4d80b66227",
+            "extract_dir": "qt6-base"
         }
     },
     "checkver": "github",
