@@ -10,6 +10,7 @@
         }
     },
     "checkver": "github",
+    "env_add_path": "bin",
     "autoupdate": {
         "architecture": {
             "64bit": {
