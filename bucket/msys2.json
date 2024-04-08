@@ -13,7 +13,11 @@
         }
     },
     "bin": [
-        ["msys2_shell.cmd", "msys2", "-msys2 -defterm -here -no-start"],
+        [
+            "msys2_shell.cmd",
+            "msys2",
+            "-msys2 -defterm -here -no-start"
+        ],
         [
             "msys2_shell.cmd",
             "mingw",
@@ -51,13 +55,34 @@
         ]
     ],
     "shortcuts": [
-        ["msys2.exe", "MSYS2"],
-        ["mingw32.exe", "MinGW32"],
-        ["mingw64.exe", "MinGW64"],
-        ["clang32.exe", "Clang32"],
-        ["clang64.exe", "Clang64"],
-        ["clangarm64.exe", "ClangArm64"],
-        ["ucrt64.exe", "UCRT64"]
+        [
+            "msys2.exe",
+            "MSYS2"
+        ],
+        [
+            "mingw32.exe",
+            "MinGW32"
+        ],
+        [
+            "mingw64.exe",
+            "MinGW64"
+        ],
+        [
+            "clang32.exe",
+            "Clang32"
+        ],
+        [
+            "clang64.exe",
+            "Clang64"
+        ],
+        [
+            "clangarm64.exe",
+            "ClangArm64"
+        ],
+        [
+            "ucrt64.exe",
+            "UCRT64"
+        ]
     ],
     "env_add_path": "ucrt64/bin",
     "persist": "home",
