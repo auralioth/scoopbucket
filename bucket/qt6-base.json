@@ -10,7 +10,6 @@
             "extract_dir": "qt6-base"
         }
     },
-    "env_add_path": "bin",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
