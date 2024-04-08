@@ -5,11 +5,13 @@
     "license": "GPL3,LGPL3,FDL",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/auryouth/qt6-build/releases/download/v6.7.0/qt6-base-6.7.0.zip",
-            "hash": "e4e179b4edb0f76b52e9a954eafe4a4d20db6c710e2a246d6cbb6feff650aa7d"
+            "url": "https://github.com/auryouth/qt6-build/releases/download/v6.7.0/qt6-declarative-6.7.0.zip",
+            "hash": "f0d167b73d0151e7c1c6d86d8c3d460636d21298610cbbe01ea92616baf1448d",
+            "extract_dir": "qt6-declarative"
         }
     },
     "checkver": "github",
+    "env_add_path": "bin",
     "autoupdate": {
         "architecture": {
             "64bit": {
