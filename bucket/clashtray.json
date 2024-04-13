@@ -1,0 +1,28 @@
+{
+    "version": "1.6",
+    "description": "一个管理clash-meta裸核的windows tray工具",
+    "homepage": "https://github.com/auryouth/clash-tray",
+    "license": "custom",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/auryouth/clash-tray/releases/download/v1.6/clashtray.exe",
+            "hash": "1c84fcf042cec6e9442ed4e87b60f267e58b2482991eb5993d6055c334e06e6e"
+        }
+    },
+    "bin": "clashtray.exe",
+    "shortcuts": [
+        [
+            "clashtray.exe",
+            "clashtray"
+        ]
+    ],
+    "notes": "clashtray will uniquely default to the clash-meta (mihomo) configuration file at $env:USERPROFILE\\.config\\clash",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/auryouth/clash-tray/releases/download/v$version/clashtray.exe"
+            }
+        }
+    }
+}
