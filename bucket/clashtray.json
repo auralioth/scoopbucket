@@ -5,8 +5,8 @@
     "license": "custom",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/auryouth/clash-tray/releases/download/v1.6/clashtray.exe",
-            "hash": "1c84fcf042cec6e9442ed4e87b60f267e58b2482991eb5993d6055c334e06e6e"
+            "url": "https://github.com/auryouth/clash-tray/releases/download/v1.6/clashtray.zip",
+            "hash": "716d5bf805afcd1e012a8730e3b095cde7b43ebe6f85adaa6f62e2f5be10f756"
         }
     },
     "bin": "clashtray.exe",
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/auryouth/clash-tray/releases/download/v$version/clashtray.exe"
+                "url": "https://github.com/auryouth/clash-tray/releases/download/v$version/clashtray.zip"
             }
         }
     }
