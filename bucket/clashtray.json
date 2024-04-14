@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/auryouth/clash-tray/releases/download/v1.6/clashtray.zip",
-            "hash": "8784410223ec8da7aaf6b5ba131dca50af7e59d9a667132b6219daa300a1c64f"
+            "hash": "b28d8d20e0797b33176c50a39b42a5ac16ed4903194299015b397a9d251c7dc1"
         }
     },
     "bin": "clashtray.exe",
