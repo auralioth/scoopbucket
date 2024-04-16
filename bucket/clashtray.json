@@ -1,12 +1,12 @@
 {
-    "version": "1.6",
+    "version": "1.7",
     "description": "一个管理clash-meta裸核的windows tray工具",
     "homepage": "https://github.com/auryouth/clash-tray",
     "license": "custom",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/auryouth/clash-tray/releases/download/v1.6/clashtray.zip",
-            "hash": "dd12df3862357cc569e8a054df60b944b12cd06804a34432241a766e38e4868b"
+            "url": "https://github.com/auryouth/clash-tray/releases/download/v1.7/clashtray.zip",
+            "hash": "8a26fe1b0a29cc2ec1d92c8f05a6f91c098a4191b0e18adabf589408fffe5762"
         }
     },
     "bin": "clashtray.exe",
