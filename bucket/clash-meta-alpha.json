@@ -1,12 +1,12 @@
 {
-    "version": "alpha-4051ea5",
+    "version": "alpha-f7d9895",
     "description": "Fork of Clash, a rule-based tunnel(Alpha Version).",
     "homepage": "https://github.com/MetaCubeX/mohomo",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-windows-amd64-alpha-4051ea5.zip",
-            "hash": "c8df53360eefca3530a2576868a6865e12d523f342dc63cf902764b3184749b8"
+            "url": "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-windows-amd64-alpha-f7d9895.zip",
+            "hash": "9bafe8ec14d84c7eac20745999ffdf43fea4db06ac01b57bf34ae2f04d01aeed"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\\mihomo*.exe\" | Rename-Item -NewName 'mihomo-alpha.exe'",
